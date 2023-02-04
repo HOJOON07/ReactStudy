@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ControlledComponents from "./components/2-10.Form/ControlledComponents";
+import UnControlledComponents from "./components/2-10.Form/UnControlledComponents";
+// import List from "./components/2-9.List/List";
+// import Condition from "./components/2-8.ConditionalRendering/Condition";
+// import Event from "./components/2-7.Event/Event";
+// import ClassComponent from "./components/2-6.LifeCycle/ ClassComponent";
+// import FunctionalComponent from "./components/2-4.props/2-5.State/FunctionalComponent";
+// import Composition from "./components/2-4.props/Composition";
+// import Extraction from "./components/2-4.props/Extraction/Extraction";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ClassComponent></ClassComponent>
+      <FunctionalComponent></FunctionalComponent>
+      <h2>하이</h2>
+      <Composition></Composition>
+      <Extraction> </Extraction> */}
+      {/* <ClassComponent></ClassComponent> */}
+      {/* <Event></Event> */}
+      {/* <Condition></Condition> */}
+      {/* <List></List> */}
+      <ControlledComponents></ControlledComponents>
+      <UnControlledComponents></UnControlledComponents>
     </div>
   );
 }
