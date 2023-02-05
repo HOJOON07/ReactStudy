@@ -1,6 +1,7 @@
 import "./App.css";
 import ControlledComponents from "./components/2-10.Form/ControlledComponents";
 import UnControlledComponents from "./components/2-10.Form/UnControlledComponents";
+import Reducer from "./components/3-3.Hooks/Reducer";
 import State from "./components/3-3.Hooks/State";
 // import List from "./components/2-9.List/List";
 // import Condition from "./components/2-8.ConditionalRendering/Condition";
@@ -25,6 +26,7 @@ function App() {
       {/* <ControlledComponents></ControlledComponents>
       <UnControlledComponents></UnControlledComponents> */}
       <State></State>
+      <Reducer></Reducer>
     </div>
   );
 }
