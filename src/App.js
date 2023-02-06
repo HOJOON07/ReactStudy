@@ -3,6 +3,9 @@ import ControlledComponents from "./components/2-10.Form/ControlledComponents";
 import UnControlledComponents from "./components/2-10.Form/UnControlledComponents";
 import Reducer from "./components/3-3.Hooks/Reducer";
 import State from "./components/3-3.Hooks/State";
+import Dialog from "./components/3-6.Composition2/Dialog";
+import WelocmeDialog from "./components/3-5.Composition/WelocmeDialog";
+import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
 // import List from "./components/2-9.List/List";
 // import Condition from "./components/2-8.ConditionalRendering/Condition";
 // import Event from "./components/2-7.Event/Event";
@@ -25,8 +28,11 @@ function App() {
       {/* <List></List> */}
       {/* <ControlledComponents></ControlledComponents>
       <UnControlledComponents></UnControlledComponents> */}
-      <State></State>
+      {/* <State></State>
       <Reducer></Reducer>
+      <WelocmeDialog></WelocmeDialog> */}
+      {/* <Dialog></Dialog> */}
+      <ThankyouDialog></ThankyouDialog>
     </div>
   );
 }
