@@ -6,6 +6,8 @@ import State from "./components/3-3.Hooks/State";
 import Dialog from "./components/3-6.Composition2/Dialog";
 import WelocmeDialog from "./components/3-5.Composition/WelocmeDialog";
 import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
+import Input from "./components/3-7.HOC/Input";
+import Button from "./components/3-7.HOC/Button";
 // import List from "./components/2-9.List/List";
 // import Condition from "./components/2-8.ConditionalRendering/Condition";
 // import Event from "./components/2-7.Event/Event";
@@ -32,7 +34,9 @@ function App() {
       <Reducer></Reducer>
       <WelocmeDialog></WelocmeDialog> */}
       {/* <Dialog></Dialog> */}
-      <ThankyouDialog></ThankyouDialog>
+      {/* <ThankyouDialog></ThankyouDialog> */}
+      <Input></Input>
+      <Button></Button>
     </div>
   );
 }
