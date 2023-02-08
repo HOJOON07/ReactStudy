@@ -44,3 +44,4 @@ function CommentItem({ title, content, likes, onClick }) {
 }
 
 export default memo(CommentItem);
+// export default CommentItem;

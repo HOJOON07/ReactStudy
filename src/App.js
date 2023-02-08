@@ -1,5 +1,5 @@
 import "./App.css";
-import Components from "./components/3-14.PropTypes/Components";
+// import Components from "./components/3-14.PropTypes/Components";
 
 // import ControlledComponents from "./components/2-10.Form/ControlledComponents";
 // import UnControlledComponents from "./components/2-10.Form/UnControlledComponents";
@@ -10,8 +10,7 @@ import Components from "./components/3-14.PropTypes/Components";
 // import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
 // import Input from "./components/3-7.HOC/Input";
 // import Button from "./components/3-7.HOC/Button";
-// import Memo from "./components/3-8.Memoization/Memo";
-
+import Memo from "./components/3-8.Memoization/Memo";
 // import Example from "./components/3-11.Portal/Example";
 // import List from "./components/2-9.List/List";
 // import Condition from "./components/2-8.ConditionalRendering/Condition";
@@ -42,10 +41,10 @@ function App() {
       {/* <ThankyouDialog></ThankyouDialog> */}
       {/* <Input></Input>
       <Button></Button> */}
-      {/* <Memo></Memo> */}
+      <Memo></Memo>
       {/* <Example></Example> */}
       {/* <Example></Example> */}
-      <Components></Components>
+      {/* <Components></Components> */}
     </div>
   );
 }
